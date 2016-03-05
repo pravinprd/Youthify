@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_home_black_36dp"
+            android:title="Home"
+            android:tint="#1aa3ff"
+            />
+        <item
+            android:id="@+id/nav_Post"
+            android:icon="@mipmap/ic_record_voice_over_black_36dp"
+            android:title="Post"
+            android:tint="#1aa3ff"
+            />
+        <item
+            android:id="@+id/nav_Involved"
+            android:icon="@mipmap/ic_visibility_black_36dp"
+            android:title="Involved"
+            android:tint="#1aa3ff"
+            android:background="?android:attr/selectableItemBackground"
+
+            />
+        <item
+            android:id="@+id/nav_Interested"
+            android:icon="@mipmap/ic_favorite_black_36dp"
+            android:title="Interested"
+            android:tint="#ff00ff"/>
+        <item
+            android:id="@+id/nav_edit_profile"
+            android:icon="@drawable/ic_face_black_36dp"
+            android:title="Edit Profile"
+            android:tint="#1aa3ff"/>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_Feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
